@@ -7,6 +7,7 @@ namespace Synotech.SMP.Web.Areas.Portal.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Title = "Dashboard";
             return View();
         }
     }

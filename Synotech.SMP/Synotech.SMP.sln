@@ -15,11 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.Web", "Synotech.SMP.Web\Synotech.SMP.Web.csproj", "{F7704A17-D9AB-4BC5-B25C-468A7E4581F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synotech.SMP.Core.Services", "Synotech.SMP.Core.Services\Synotech.SMP.Core.Services.csproj", "{E4AA2A29-3DE5-4D6C-BA25-EEE60516ECEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.Core.Services", "Synotech.SMP.Core.Services\Synotech.SMP.Core.Services.csproj", "{E4AA2A29-3DE5-4D6C-BA25-EEE60516ECEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synotech.SMP.Core.Services.Interfaces", "Synotech.SMP.Core.Services.Interfaces\Synotech.SMP.Core.Services.Interfaces.csproj", "{8036633A-AC98-4050-AD94-AD12921E91A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.Core.Services.Interfaces", "Synotech.SMP.Core.Services.Interfaces\Synotech.SMP.Core.Services.Interfaces.csproj", "{8036633A-AC98-4050-AD94-AD12921E91A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synotech.SMP.WebAPI", "Synotech.SMP.WebAPI\Synotech.SMP.WebAPI.csproj", "{D8F30EAB-E2F1-455D-A95D-84A76164FEF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.WebAPI", "Synotech.SMP.WebAPI\Synotech.SMP.WebAPI.csproj", "{D8F30EAB-E2F1-455D-A95D-84A76164FEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synotech.SMP.Web.UnitTests", "Synotech.SMP.Web.UnitTests\Synotech.SMP.Web.UnitTests.csproj", "{8970992F-18D1-4C7B-A60D-6EA5CDB9DF25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{D8F30EAB-E2F1-455D-A95D-84A76164FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F30EAB-E2F1-455D-A95D-84A76164FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F30EAB-E2F1-455D-A95D-84A76164FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8970992F-18D1-4C7B-A60D-6EA5CDB9DF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8970992F-18D1-4C7B-A60D-6EA5CDB9DF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8970992F-18D1-4C7B-A60D-6EA5CDB9DF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8970992F-18D1-4C7B-A60D-6EA5CDB9DF25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{E4AA2A29-3DE5-4D6C-BA25-EEE60516ECEE} = {78DF91CF-E204-43A1-B864-FF4F6D4172DB}
 		{8036633A-AC98-4050-AD94-AD12921E91A9} = {78DF91CF-E204-43A1-B864-FF4F6D4172DB}
 		{D8F30EAB-E2F1-455D-A95D-84A76164FEF3} = {8C8D23F3-6DB7-4066-B258-0B53EF8683F5}
+		{8970992F-18D1-4C7B-A60D-6EA5CDB9DF25} = {B246DA79-3193-44BD-B29D-85D7C40B8C20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8CFED8D-9142-451E-A09C-0085E059035B}

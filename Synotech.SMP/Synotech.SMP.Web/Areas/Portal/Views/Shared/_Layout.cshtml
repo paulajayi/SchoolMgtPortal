@@ -127,11 +127,9 @@
         </ul>
     </div>
      
-     @{
-        await Html.RenderPartialAsync("_Sidebar.cshtml");
-     }
+     @{ await Html.RenderPartialAsync("_Sidebar.cshtml");}
    
-    @*@Html.Partial("_Sidebar.cshtml")*@
+    
     <div class="main-wrapper">
         <div class="page-wrapper">
             <div class="content container-fluid">

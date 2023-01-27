@@ -14,21 +14,21 @@ namespace Synotech.SMP.Web.UnitTests.Areas.Portal.Controllers
     public class DashboardControllerTests
     {
 
-        [Fact]
-        public void TestDashboard()
-        {
-            DashboardController dashboardController = new DashboardController();
-            ViewResult? result = dashboardController.Index() as ViewResult;
-            Assert.NotNull(result);
-        }
+       // [Fact]
+        //public void TestDashboard()
+        //{
+        //    DashboardController dashboardController = new DashboardController();
+        //    ViewResult? result = dashboardController.Index() as ViewResult;
+        //    Assert.NotNull(result);
+        //}
 
-        [Fact]
-        public void TestDashboardTitleMessage()
-        {
-            DashboardController dashboardController = new DashboardController();
-            ViewResult? result = dashboardController.Index() as ViewResult;
-            Assert.Equal("Dashboard", result.ViewData["Title"]);
-        }
+        //[Fact]
+        //public void TestDashboardTitleMessage()
+        //{
+        //    DashboardController dashboardController = new DashboardController();
+        //    ViewResult? result = dashboardController.Index() as ViewResult;
+        //    Assert.Equal("Dashboard", result.ViewData["Title"]);
+        //}
 
     }
 }

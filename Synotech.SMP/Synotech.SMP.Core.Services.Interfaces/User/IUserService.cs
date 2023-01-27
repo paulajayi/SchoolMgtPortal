@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Synotech.SMP.Core.Services.Interfaces.User
+namespace Synotech.SMP.Core.Interfaces.User
 {
     public interface IUserService
     {

@@ -1,4 +1,5 @@
-﻿using Synotech.SMP.Core.Services.Interfaces.User;
+﻿using Synotech.SMP.Core.Interfaces.User;
+using Synotech.SMP.Core.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

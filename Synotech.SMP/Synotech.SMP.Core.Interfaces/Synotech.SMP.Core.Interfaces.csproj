@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Synotech.SMP.Core.Models\Synotech.SMP.Core.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,6 @@
-﻿namespace Synotech.SMP.Core.Models
+﻿using System;
+
+namespace Synotech.SMP.Core.Models
 {
     public class Class1
     {

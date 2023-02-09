@@ -295,6 +295,7 @@
     <ProjectReference Include="..\Synotech.SMP.Core.Interfaces\Synotech.SMP.Core.Interfaces.csproj" />
     <ProjectReference Include="..\Synotech.SMP.Core.Models\Synotech.SMP.Core.Models.csproj" />
     <ProjectReference Include="..\Synotech.SMP.Core.Services\Synotech.SMP.Core.Services.csproj" />
+    <ProjectReference Include="..\Synotech.SMP.Domain.Entities\Synotech.SMP.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>

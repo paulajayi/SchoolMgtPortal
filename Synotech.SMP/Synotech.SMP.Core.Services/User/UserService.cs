@@ -8,14 +8,12 @@ using Synotech.SMP.Core.Models.User;
 
 namespace Synotech.SMP.Core.Services.User
 {
-   
+
 
     public class UserService : IUserService
     {
-        
-        public async Task<UserLoginResponse> AuthenticateUser(string username, string password)
+        public Task<UserLoginResponse> AuthenticateUser(string username, string password)
         {
-
             throw new NotImplementedException();
         }
     }

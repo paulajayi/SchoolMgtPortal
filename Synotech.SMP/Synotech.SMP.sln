@@ -29,7 +29,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.Core.Services"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.Core.Interfaces", "Synotech.SMP.Core.Interfaces\Synotech.SMP.Core.Interfaces.csproj", "{3FF52FA7-DD0F-4D67-AF07-58233E830DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synotech.SMP.Core.Models", "Synotech.SMP.Core.Models\Synotech.SMP.Core.Models.csproj", "{F9B8E031-8119-45D0-A5D1-109D980C7D36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synotech.SMP.Core.Models", "Synotech.SMP.Core.Models\Synotech.SMP.Core.Models.csproj", "{F9B8E031-8119-45D0-A5D1-109D980C7D36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{77A4AB9C-9F5B-4B0F-B589-7080281C49CB}"
+	ProjectSection(SolutionItems) = preProject
+		AppDbContext.cs = AppDbContext.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synotech.SMP.Infrastructure.Data", "Synotech.SMP.Infrastructure.Data\Synotech.SMP.Infrastructure.Data.csproj", "{6794E911-4E1E-47C0-9412-48A9E83346EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +76,10 @@ Global
 		{F9B8E031-8119-45D0-A5D1-109D980C7D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B8E031-8119-45D0-A5D1-109D980C7D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B8E031-8119-45D0-A5D1-109D980C7D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6794E911-4E1E-47C0-9412-48A9E83346EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6794E911-4E1E-47C0-9412-48A9E83346EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6794E911-4E1E-47C0-9412-48A9E83346EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6794E911-4E1E-47C0-9412-48A9E83346EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +93,8 @@ Global
 		{0E1E0E59-8AAD-4BFD-A415-3B8EB93F2EC9} = {78DF91CF-E204-43A1-B864-FF4F6D4172DB}
 		{3FF52FA7-DD0F-4D67-AF07-58233E830DDD} = {78DF91CF-E204-43A1-B864-FF4F6D4172DB}
 		{F9B8E031-8119-45D0-A5D1-109D980C7D36} = {78DF91CF-E204-43A1-B864-FF4F6D4172DB}
+		{77A4AB9C-9F5B-4B0F-B589-7080281C49CB} = {11572BE5-ACCB-42AB-8317-2C3377F6AA00}
+		{6794E911-4E1E-47C0-9412-48A9E83346EC} = {77A4AB9C-9F5B-4B0F-B589-7080281C49CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8CFED8D-9142-451E-A09C-0085E059035B}

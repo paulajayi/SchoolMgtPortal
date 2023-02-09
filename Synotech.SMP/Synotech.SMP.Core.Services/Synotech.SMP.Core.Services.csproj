@@ -1,11 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <!--<TargetFramework>netstandard2.0</TargetFramework>-->
+	  <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Synotech.SMP.Core.Interfaces\Synotech.SMP.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\Synotech.SMP.Infrastructure.Data\Synotech.SMP.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

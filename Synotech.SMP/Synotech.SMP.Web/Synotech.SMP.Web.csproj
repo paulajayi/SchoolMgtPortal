@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -289,6 +289,12 @@
     <Folder Include="wwwroot\theme\assets\js\html-template\assets\js\" />
     <Folder Include="wwwroot\theme\assets\js\html-template\assets\plugins\fontawesome\css\" />
     <Folder Include="wwwroot\theme\assets\js\html-template\html-template\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Synotech.SMP.Core.Interfaces\Synotech.SMP.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\Synotech.SMP.Core.Models\Synotech.SMP.Core.Models.csproj" />
+    <ProjectReference Include="..\Synotech.SMP.Core.Services\Synotech.SMP.Core.Services.csproj" />
   </ItemGroup>
 
 </Project>

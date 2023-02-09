@@ -1,5 +1,7 @@
 using SmartBreadcrumbs.Extensions;
 using System.Reflection;
+using Synotech.SMP.Core.Services.User;
+using Synotech.SMP.Core.Interfaces.User;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,7 @@ builder.Services.AddBreadcrumbs(Assembly.GetExecutingAssembly(), options =>
     options.ActiveLiClasses = "breadcrumb-item active";
 });
 
-
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

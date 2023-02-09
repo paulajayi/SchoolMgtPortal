@@ -1,10 +1,7 @@
-﻿using Synotech.SMP.Core.Interfaces.User;
-using Synotech.SMP.Core.Services.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using Synotech.SMP.Core.Interfaces.User;
 
 namespace Synotech.SMP.Core.Services.User
 {

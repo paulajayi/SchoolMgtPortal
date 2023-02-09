@@ -4,8 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Synotech.SMP.Core.Interfaces\Synotech.SMP.Core.Interfaces.csproj" />
-  </ItemGroup>
-
 </Project>

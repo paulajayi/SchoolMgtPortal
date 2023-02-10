@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,10 @@ namespace Synotech.SMP.Domain.Entities
 {
     public class Students
     {
+        [Key]
         public int StudentId { get; set; }
 
-        [ForeignKey("Users")]
+        //[ForeignKey("Users")]
         public int UserLoginID { get; set; }
 
 
@@ -22,7 +24,7 @@ namespace Synotech.SMP.Domain.Entities
         public string Gender { get; set; }
 
 
-        public virtual Users LoginAccess { get; set; }
+        //public virtual Users LoginAccess { get; set; }
 
     }
 }

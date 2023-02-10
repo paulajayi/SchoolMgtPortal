@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -9,10 +10,11 @@ namespace Synotech.SMP.Domain.Entities
 {
     public class Parents
     {
+        [Key]
         public int ParentID { get; set; }
 
-        [ForeignKey("Users")]
-        public int UserLoginID { get; set; }
+        //[ForeignKey("Users")]
+        public int? UserLoginID { get; set; }
 
 
         public string Surname { get; set; }
@@ -21,6 +23,6 @@ namespace Synotech.SMP.Domain.Entities
         public string Email { get; set; }
         public string Phone { get; set; }
 
-        public virtual Users LoginAccess { get; set; }
+        //public virtual Users LoginAccess { get; set; }
     }
 }

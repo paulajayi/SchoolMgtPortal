@@ -13,7 +13,7 @@ namespace Synotech.SMP.Domain.Entities
         [Key]
         public int EmployeeID { get; set; }
 
-        //[ForeignKey("Users")]
+        [ForeignKey("Users")]
         public int? UserLoginID { get; set; }
 
         public int Surname { get; set; }   
@@ -23,6 +23,6 @@ namespace Synotech.SMP.Domain.Entities
         public int Email { get; set; }
         public int Phone { get; set; }
 
-        //public virtual Users User { get; set; }    
+       public ICollection<Users> User { get; set; }    
     }
 }

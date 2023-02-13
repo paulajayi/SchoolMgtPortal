@@ -14,11 +14,7 @@ namespace Synotech.SMP.Domain.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public bool IsActive { get; set; }
-
-
-        public virtual Employees Employees { get; set; }
-        public virtual Parents Parents { get; set; }
-        public virtual Students Students { get; set; }
+       
 
         public ICollection<UsersInRoles> UsersInRoles { get; set; }
     }

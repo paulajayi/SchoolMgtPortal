@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Synotech.SMP.Core.Interfaces\Synotech.SMP.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\Synotech.SMP.Core.Models\Synotech.SMP.Core.Models.csproj" />
+    <ProjectReference Include="..\Synotech.SMP.Core.Services\Synotech.SMP.Core.Services.csproj" />
+  </ItemGroup>
+
 </Project>

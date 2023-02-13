@@ -24,7 +24,7 @@ namespace Synotech.SMP.Domain.Entities
         public string Gender { get; set; }
 
 
-        //public virtual Users LoginAccess { get; set; }
+       
 
     }
 }
